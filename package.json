@@ -1,7 +1,6 @@
 {
   "name": "MLH",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npx wdio run ./wdio.conf.js"
@@ -23,5 +22,17 @@
     "@wdio/selenium-standalone-service": "^7.2.0",
     "@wdio/spec-reporter": "^7.2.0",
     "@wdio/sync": "^7.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natdem/QA8-MLH.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natdem/QA8-MLH/issues"
+  },
+  "homepage": "https://github.com/natdem/QA8-MLH#readme",
+  "description": ""
 }

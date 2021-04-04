@@ -25,9 +25,8 @@ exports.config = {
 
     exclude: [
         './test/smoke/elementsExist.js',
-        './test/smoke/labelsCorrect.js'
+        './test/smoke/labelsCorrect.js',
         //'./test/smoke/smokeFunctional.js'
-
     ],
     //
     // ============
@@ -96,7 +95,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://qa-apps.netlify.app/hero',
+    baseUrl: 'https://qa-apps.netlify.app/hero/fix#',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
